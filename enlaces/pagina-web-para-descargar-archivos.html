@@ -1,23 +1,65 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Página Web para descargar archivos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Love You App</title>
+
+  <!-- Fuente personalizada -->
+  <link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --Matrix-txt: #00ff00; /* Color verde estilo Matrix */
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000; /* Fondo negro estilo Matrix */
+    }
+
+    .Love__You {
+      color: var(--Matrix-txt);
+      justify-content: center;
+      align-items: center;
+      font-family: 'Love Ya Like A Sister', cursive;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      padding: 1rem;
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .whatsapp-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #25D366;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.2rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .whatsapp-button:hover {
+      background-color: #1ebe57;
+    }
+  </style>
 </head>
 <body>
-
-<h1>Página web para descargar archivos</h1>
-
-<a href="http://lineadecodigo.com/wp-content/uploads/2006/12/lineadecodigo.txt" title="Descargar fichero lineadecodigo.txt">
-Descargar fichero lineadecodigo.txt
-</A>(.txt, 1Kb)
-
-<br><br>
-<hr/>
-Art&iacute;culo disponible en: <a href="http://lineadecodigo.com/2006/11/04/abrir-enlace-sobre-varios-frames/">http://lineadecodigo.com/2006/11/04/abrir-enlace-sobre-varios-frames/</a><br/>
-<a href="http://lineadecodigo.com" title="Linea de Codigo">lineadecodigo.com</a>
-
-
-
+  <div class="Love__You">
+    <h1>Te Amo ðŸ’š</h1>
+    <p>EnvÃ­ame un mensaje por WhatsApp</p>
+    <a
+      class="whatsapp-button"
+      href="https://wa.me/1234567890"
+      target="_blank"
+    >
+      Abrir WhatsApp
+    </a>
+  </div>
 </body>
 </html>
